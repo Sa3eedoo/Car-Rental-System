@@ -1,0 +1,997 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: rgb(184, 182, 178);
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(4.png);
+    background-size: cover;
+    background-repeat:repeat;
+    background-position: center;
+}
+header{
+    
+    height: 118px;
+    text-align: center;
+}
+/*.....................................................................*/
+
+nav{
+    background-color:rgba(0, 0, 0, 0.45);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+   
+}
+nav a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*.....................................................................*/
+
+main{
+    
+    height: 400px;
+    text-align: center;
+    padding-top:50px ;
+    padding-bottom: 80px;
+    margin-top: 80px;
+   padding-left: 240px;
+   padding-right: 240px;
+   
+}
+footer{
+    
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom:20px;
+    position: relative;
+  
+}
+footer p {
+    font-size: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+/*.....................................................................*/
+h1{
+    font-size: 84px;
+    color: white;
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: center;
+}
+p{
+    font-size: 25px;
+    color: white;
+ font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    font-size: 12px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*.....................................................................*/
+.signupButton{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 17px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+  
+}
+.signupButton:hover{
+    border: 1px solid #fff;
+    background-color: rgb(255, 0, 0);
+    transition: 0.5s;
+}
+/*.....................................................................*/
+.loginBox{
+    width: 320px;
+    height: 320px;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+.loginBox p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.loginBox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginBox input[type="text"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.loginBox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(255, 0, 0);
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginBox input[type="submit"]:hover{
+    cursor: pointer;
+    background:  rgba(255, 0, 0, 0.863);
+}
+/*.....................................................................*/
+.registerBox{
+    width: 500px;
+    height: 730px;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: #fff;
+    top: 70%;
+    bottom: 70%;
+    left: 50%;
+    position:relative;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 30px 30px 30px;
+
+}
+.registerBox p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.registerBox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.registerBox input[type="text"],input[type="password"],input[type="email"],input[type="tel"],input[type="year"],input[type="number"],input[type="date"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.registerBox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(255, 0, 0);
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.registerBox input[type="submit"]:hover{
+    cursor: pointer;
+    background:  rgba(255, 0, 0, 0.863);
+}
+.index p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.index a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 17px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    align-content: center;
+
+}
+.index a:hover{
+    border: 1px solid #fff;
+    background-color: rgb(255, 0, 0);
+    transition: 0.5s;
+}
+/*.....................................................................*/
+.searchBox{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: #fff;
+    position:relative;
+    box-sizing: border-box;
+    padding: 30px 30px 30px 30px;
+    left: 30%;
+    top: 10%;
+
+}
+.searchBox p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.searchBox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.searchBox input[type="text"],input[type="date"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.searchBox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(255, 0, 0);
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.searchBox input[type="submit"]:hover{
+    cursor: pointer;
+    background:  rgba(255, 0, 0, 0.863);
+}
+
+/*............................................*/
+.customer_signup{
+    width: 500px;
+    height: 880px;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: #fff;
+    top: 80%;
+    bottom: 70%;
+    left: 50%;
+    position:relative;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 30px 30px 30px;
+
+}
+.customer_signup p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.customer_signup input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.customer_signup input[type="text"],input[type="password"],input[type="email"],input[type="tel"],input[type="year"],input[type="number"],input[type="date"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.customer_signup input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(255, 0, 0);
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.customer_signup input[type="submit"]:hover{
+    cursor: pointer;
+    background:  rgba(255, 0, 0, 0.863);
+}
+.customer_signup a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 17px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    align-content: center;
+}
+.customer_signup a:hover{
+    border: 1px solid #fff;
+    background-color: rgb(255, 0, 0);
+    transition: 0.5s;
+}
+/*............................................*/
+.customer_loginBox{
+    width: 320px;
+    height: 370px;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+.customer_loginBox p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.customer_loginBox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.customer_loginBox input[type="text"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.customer_loginBox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(255, 0, 0);
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.customer_loginBox input[type="submit"]:hover{
+    cursor: pointer;
+    background:  rgba(255, 0, 0, 0.863);
+}
+/*........................................*/
+.customer_index{
+    width: 500px;
+    height: 540px;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: #fff;
+    position:relative;
+    box-sizing: border-box;
+    padding: 30px 30px 30px 30px;
+    left: 33%;
+    top: 10%;
+
+}
+.customer_index p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.customer_index input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.customer_index input[type="text"],input[type="date"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.customer_index input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(255, 0, 0);
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.customer_index input[type="submit"]:hover{
+    cursor: pointer;
+    background:  rgba(255, 0, 0, 0.863);
+}
+/*........................................*/
+.customer_advanced_search{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: #fff;
+    position:relative;
+    box-sizing: border-box;
+    padding: 30px 30px 30px 30px;
+    left: 33%;
+    top: 10%;
+
+}
+.customer_advanced_search p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.customer_advanced_search input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.customer_advanced_search input[type="text"],input[type="date"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.customer_advanced_search input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(255, 0, 0);
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.customer_advanced_search input[type="submit"]:hover{
+    cursor: pointer;
+    background:  rgba(255, 0, 0, 0.863);
+}
+/*........................................*/
+input[type="submit"]{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display:inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 4px 4px 4px 4px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    align-content: center;
+}
+input[type="submit"]:hover{
+    border: 1px solid #fff;
+    background-color: rgb(255, 0, 0);
+    transition: 0.5s;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+}
+
+
+td {
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+tr:hover {background-color: rgba(255, 0, 0, 0.479);}
+/*tr:nth-child(even) {background-color: rgba(0, 0, 0, 0.034);}*/
+th {
+    background-color: rgba(255, 0, 0, 0.863);
+    color: white;
+    border-bottom: 1px solid #ddd;
+}
+/*................................................*/
+.customer_specs{
+    width: 500px;
+    height: 420px;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: #fff;
+    position:relative;
+    box-sizing: border-box;
+    padding: 30px 30px 30px 30px;
+    left: 33%;
+    top: 10%;
+
+}
+.customer_specs p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.customer_specs input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.customer_specs input[type="text"],input[type="date"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.customer_specs input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(255, 0, 0);
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.customer_specs input[type="submit"]:hover{
+    cursor: pointer;
+    background:  rgba(255, 0, 0, 0.863);
+}
+/*........................................*/
+.admin_loginBox{
+    width: 320px;
+    height: 370px;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+.admin_loginBox p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.admin_loginBox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.admin_loginBox input[type="text"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.admin_loginBox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(255, 0, 0);
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.admin_loginBox input[type="submit"]:hover{
+    cursor: pointer;
+    background:  rgba(255, 0, 0, 0.863);
+}
+/*...................................................*/
+.admin_signup{
+    width: 500px;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: #fff;
+    top: 40%;
+    bottom: 70%;
+    left: 50%;
+    position:relative;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 30px 30px 30px;
+
+}
+.admin_signup p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.admin_signup input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.admin_signup input[type="text"],input[type="password"],input[type="email"],input[type="tel"],input[type="year"],input[type="number"],input[type="date"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.admin_signup input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(255, 0, 0);
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.admin_signup input[type="submit"]:hover{
+    cursor: pointer;
+    background:  rgba(255, 0, 0, 0.863);
+}
+.admin_signup a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 17px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    align-content: center;
+}
+.admin_signup a:hover{
+    border: 1px solid #fff;
+    background-color: rgb(255, 0, 0);
+    transition: 0.5s;
+}
+/*.................................................................................*/
+.admin_index a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display:inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 17px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    align-content: center;
+    width: 300px;
+    bottom: 30%;
+
+}
+.admin_index a:hover{
+    border: 1px solid #fff;
+    background-color: rgb(255, 0, 0);
+    transition: 0.5s;
+}
+/*...................................................*/
+.add_car{
+    width: 500px;
+    height: 890px;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: #fff;
+    top: 90%;
+    bottom: 40%;
+    left: 50%;
+    position:relative;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 30px 30px 30px;
+
+}
+.add_car p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.add_car input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.add_car input[type="text"],input[type="password"],input[type="email"],input[type="tel"],input[type="year"],input[type="number"],input[type="date"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.add_car input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(255, 0, 0);
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.add_car input[type="submit"]:hover{
+    cursor: pointer;
+    background:  rgba(255, 0, 0, 0.863);
+}
+.add_car a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 17px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    align-content: center;
+}
+.add_car a:hover{
+    border: 1px solid #fff;
+    background-color: rgb(255, 0, 0);
+    transition: 0.5s;
+}
+/*...................................................*/
+.edit{
+    width: 500px;
+    height: 620px;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: #fff;
+    top: 50%;
+    bottom: 70%;
+    left: 50%;
+    position:relative;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 30px 30px 30px;
+
+}
+.edit p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.edit input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.edit input[type="text"],input[type="password"],input[type="email"],input[type="tel"],input[type="year"],input[type="number"],input[type="date"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.edit input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(255, 0, 0);
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.edit input[type="submit"]:hover{
+    cursor: pointer;
+    background:  rgba(255, 0, 0, 0.863);
+}
+.edit a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 17px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    align-content: center;
+}
+.edit a:hover{
+    border: 1px solid #fff;
+    background-color: rgb(255, 0, 0);
+    transition: 0.5s;
+}
+/*...................................................*/
+.view{
+    width: 500px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: #fff;
+    top: 40%;
+    bottom: 70%;
+    left: 50%;
+    position:relative;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 30px 30px 30px;
+
+}
+.view p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.view input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.view input[type="text"],input[type="password"],input[type="email"],input[type="tel"],input[type="year"],input[type="number"],input[type="date"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.view input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(255, 0, 0);
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.view input[type="submit"]:hover{
+    cursor: pointer;
+    background:  rgba(255, 0, 0, 0.863);
+}
+.view a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 17px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    align-content: center;
+}
+.view a:hover{
+    border: 1px solid #fff;
+    background-color: rgb(255, 0, 0);
+    transition: 0.5s;
+}
+/*...................................................*/
+.view2{
+    width: 500px;
+    height: 370px;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: #fff;
+    top: 40%;
+    bottom: 70%;
+    left: 50%;
+    position:relative;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 30px 30px 30px;
+
+}
+.view2 p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.view2 input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.view2 input[type="text"],input[type="password"],input[type="email"],input[type="tel"],input[type="year"],input[type="number"],input[type="date"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.view2 input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(255, 0, 0);
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.view2 input[type="submit"]:hover{
+    cursor: pointer;
+    background:  rgba(255, 0, 0, 0.863);
+}
+.view2 a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 17px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    align-content: center;
+}
+.view2 a:hover{
+    border: 1px solid #fff;
+    background-color: rgb(255, 0, 0);
+    transition: 0.5s;
+}
+/*...................................................*/
+.view3{
+    width: 500px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: #fff;
+    top: 40%;
+    bottom: 70%;
+    left: 50%;
+    position:relative;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 30px 30px 30px;
+
+}
+.view3 p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.view3 input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.view3 input[type="text"],input[type="password"],input[type="email"],input[type="tel"],input[type="year"],input[type="number"],input[type="date"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.view3 input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(255, 0, 0);
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.view3 input[type="submit"]:hover{
+    cursor: pointer;
+    background:  rgba(255, 0, 0, 0.863);
+}
+.view3 a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 17px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    align-content: center;
+}
+.view3 a:hover{
+    border: 1px solid #fff;
+    background-color: rgb(255, 0, 0);
+    transition: 0.5s;
+}
